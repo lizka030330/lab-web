@@ -1,0 +1,114 @@
+body {
+    background: url(./picture_3/FFTablet_1100x.progressive.webp);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.href-list {
+    display: flex;
+}
+
+.minibox {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.button {
+    color: whitesmoke;
+    border: 1.3px solid whitesmoke;
+    margin-left: auto;
+    padding: 13px 30px;
+}
+
+.start-project{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.text-box {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo {
+    background-image: url(./picture_3/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.maintext {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 173px;
+}
+
+.undertext {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+    padding: 55px;
+}
+
+.text {
+    font-size: 23px;
+    color: whitesmoke;
+}
+
+.logo2 {
+    background-image: url(./picture_3/home-hero-emblems.png);
+    width: 300px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1210px) {
+    .maintext {
+        display: none;
+    }
+    .href-list{
+        margin-left: auto;
+    }
+    .button {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    footer {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .text {
+        text-align: center;
+    }
+    .logo2 {
+        margin-top: 35%;
+        width: 175px;
+        height: 100px;
+    }
+}
